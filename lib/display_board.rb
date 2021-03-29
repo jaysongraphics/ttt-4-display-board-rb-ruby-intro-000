@@ -1,7 +1,7 @@
-def display_board(board)
-  puts " #{board[0]} | #{board[1]} | #{board[2]} "
-  puts separator = "-----------"
-  puts " #{board[3]} | #{board[4]} | #{board[5]} "
-  puts separator = "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
-end
+def display_board
+   puts row = ["   " "|" "   " "|" "   "]
+   puts separator = "-----------"
+   puts row = ["   " "|" "   " "|" "   "]
+   puts row = ["   " "|" "   " "|" "   "]
+   puts row
+ end
